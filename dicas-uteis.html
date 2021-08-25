@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <title>Guliver Traveller</title>
+</head>
+
+<body class="bg-light">
+    <!-- Inicio menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="logo">
+                <a class="navbar-brand" href="index.html"> <img src="./img/logomundopronto.png" alt="Logo Guliver Traveller" style="width: 100%;"> </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="dicas-uteis.html">Dicas úteis</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="parques.html">Parques</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <hr id="corDoHr" />
+                    <li class="nav-item nav-link separar">
+                        <a class="menu-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="cadastro.html">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim menu -->
+
+    <!-- Inicio dos card -->
+
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#quandoIrModal">
+                <i class="fas fa-plane-departure icones" style="color: #008000"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Quando ir</h5>
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#tempMediaModal">
+                <i class="fas fa-thermometer-half icones" style="color: #588ad6"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Temperatura média anual</h5>
+                </div>
+            </button>
+        </div>
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#fusoHorarioModal">
+                <i class="far fa-clock icones" style="color: #800080"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Fuso horário</h5>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- Card linha 2 -->
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#tempoMedioPermanenciaModal">
+                <i class="fas fa-user-clock icones" style="color: #004040"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Tempo médio de permanência</h5>
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#idiomaModal">
+                <i class="fas fa-language icones" style="color: #e27e1b"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Idioma</h5>
+                </div>
+            </button>
+        </div>
+
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#voltagemTomadaModal">
+                <div>
+                    <i class="fas fa-bolt icones" style="color: #0047b1; margin-right: 1%"></i>
+                    <i class="fas fa-plug icones" style="color: #0047b1; margin-left: 1%"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Voltagem e tipo de tomada</h5>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- card linha 3 -->
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#moedaModal">
+                <i class="fas fa-coins icones" style="color: #ecec00"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Moeda</h5>
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#documentosNecessariosModal">
+                <i class="far fa-id-card icones" style="color: #7c0c4a"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Documentos necessários</h5>
+                </div>
+            </button>
+        </div>
+
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#bagagemModal">
+                <i class="fas fa-luggage-cart icones" style="color: #b00000"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Bagagem</h5>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- card linha 4 -->
+
+    <!-- Button trigger modal -->
+    <div class="card-group margin-cards">
+        <div class="card text-center card-central">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#comoLocomoverModal">
+                <i class="fas fa-subway icones" style="color: #2cd3d3"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Como se locomover</h5>
+                </div>
+            </button>
+        </div>
+    </div>
+    <!-- fim dos card -->
+
+    <!-- inicio modals  -->
+    <!-- Modal quando ir-->
+    <div class="modal fade" id="quandoIrModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Quando ir</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-plane-departure icones" style="color: #008000"></i>
+                    </div>
+                    <p class="text-modal">São Paulo possui as quatro estações muito bem definidas, mas a melhor época para se ir é quando a temperatura média é de 20°C  sendo isso nos meses de outono (março a junho) e  primavera(setembro a dezembro)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal quando ir-->
+
+    <!-- Modal Temperatura média anual-->
+    <div class="modal fade" id="tempMediaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Temperatura média anual</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-thermometer-half icones" style="color: #588ad6"></i>
+                    </div>
+                    <p class="text-modal">A temperatura média anual da cidade de São Paulo é de cerca de 20°C.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Temperatura média anual-->
+
+    <!-- Modal Fuso horário-->
+    <div class="modal fade" id="fusoHorarioModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Fuso horário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="far fa-clock icones" style="color: #800080"></i>
+                    </div>
+                    <p class="text-modal">O Fuso horário da cidade de São Paulo é o GMT-3.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Fuso horário-->
+
+    <!-- Modal Tempo médio de permanência-->
+    <div class="modal fade" id="tempoMedioPermanenciaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tempo médio de permanência</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-user-clock icones" style="color: #004040"></i>
+                    </div>
+                    <p class="text-modal">Em média os turista nacionais tem uma permanência média de 3 dias e um gasto diário de cerca de 180 reais por dia e os internacionais tem uma permanência média de 4 dias com um gasto diário de cerca de 484 reais por dia.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Tempo médio de permanência-->
+
+    <!-- Modal Idioma-->
+    <div class="modal fade" id="idiomaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Idioma</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-language icones" style="color: #e27e1b"></i>
+                    </div>
+                    <p class="text-modal">O idioma falado em São Paulo é o português.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Idioma-->
+
+    <!-- Modal Voltagem e tipo de tomada-->
+    <div class="modal fade" id="voltagemTomadaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Voltagem e tipo de tomada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-bolt icones" style="color: #0047b1; margin-right: 1%"></i>
+                        <i class="fas fa-plug icones" style="color: #0047b1; margin-left: 1%"></i>
+                    </div>
+                    <p class="text-modal">A voltagem em São Paulo (capital) é 110 Volts. Talvez exista alguma tomada 220v no hotel, mas isso não ocorre em todos os quartos. </p>
+                       <p class="text-modal">O padrão de tomadas no Brasil(São Paulo) é o tipo N, com três pinos redondos. O mais adequado é pesquisar antes de viajar e comprar o adaptador compatível antes de ir. Pois nem todos os lugares de São Paulo possuem esse tipo de tomada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Voltagem e tipo de tomada-->
+
+    <!-- Modal Moeda-->
+    <div class="modal fade" id="moedaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Moeda</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-coins icones" style="color: #ecec00"></i>
+                    </div>
+                    <p class="text-modal">A moeda utilizada no Brasil e em São Paulo é o real.</p>
+                       
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Moeda-->
+
+    <!-- Modal Documentos necessários-->
+    <div class="modal fade" id="documentosNecessariosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Documentos necessários</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="far fa-id-card icones" style="color: #7c0c4a"></i>
+                    </div>
+                    <p class="text-modal">Para viajar dentro do Brasil, basta levar um documento de identificação com foto, podendo ser RG, passaporte, carteira de habilitação ou carteira de trabalho. Crianças menores de 12 anos devem estar acompanhadas e também precisam ter RG, passaporte ou certidão de nascimento.</p>
+                       
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Documentos necessários-->
+
+    <!-- Modal Bagagem-->
+    <div class="modal fade" id="bagagemModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Bagagem</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-luggage-cart icones" style="color: #b00000"></i>
+                    </div>
+                    <p class="text-modal">Cada companhia aérea define o que você pode levar como bagagem de mão – a única coisa determinada por lei é que cada passageiro pode levar até 10 quilos sem custo. A maioria das empresas aéreas permite que se leve uma mala pequena e também um item pessoal, como uma mochila, sacola ou bolsa, que caiba embaixo do assento à frente de você. Um objeto pessoal bolsa/mochila com as seguinte medidas máximas: 35 x 20 x 45 cm. Uma mala com as seguintes medidas máximas: 35 x 25 x 55 cm (comprimento x largura x altura), já incluindo alças, bolsos e rodinhas, e com no máximo 10kg.</p>
+                       
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Bagagem-->
+
+    <!-- Modal Como se locomover-->
+    <div class="modal fade" id="comoLocomoverModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Como se locomover</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-subway icones" style="color: #2cd3d3"></i>
+                    </div>
+                    <p class="text-modal">O Trânsito caótico da cidade faz com que muitos moradores optem por usar o sistema de transporte público. São 6 milhões de passageiros que todos os dias utilizam esse sistema de locomoção. </p>
+                    <p class="text-modal">Metrô e Trem:</p>   
+                    <p class="text-modal">Entre as opções de transporte público, a mais prática, eficiente, rápida e confortável é o metrô. Sem falar que as estações são facilmente identificáveis, o que já facilita muito a vida do turista! Basta saber o nome da parada de destino, o número e cor da linha. Uma mapinha simples será capaz de resolver todas as dúvidas. </p>
+                    <p class="text-modal">Ônibus:</p>   
+                    <p class="text-modal">O sistema de ônibus de São Paulo passou por várias transformações e atualmente se mostra como uma boa alternativa para os visitantes, especialmente quando é necessário complementar um trajeto que o metrô não faz por completo.</p>
+                    <p class="text-modal">Táxi:</p>  
+                    <p class="text-modal">O táxi é um meio de locomoção bastante comum em São Paulo. O preço é mais barato que muitas cidades do país e para curtas distâncias eles se mostram uma boa opção, especialmente à noite, quando não há mais metrô. Eles podem ser chamados diretamente na rua ou por aplicativos de celular. Atualmente, a cidade vive o embate entre os taxistas e motoristas do aplicativo Uber, que atuam na capital paulista e têm gerado grande polêmica com os taxistas.</p>
+                    <p class="text-modal">Bike:</p>  
+                    <p class="text-modal">A cidade de São Paulo vem passando por constantes obras de adaptação para implementação de ciclovias. O sistema ainda não é tão eficiente para permitir a locação por toda a cidade, mesmo assim vale um passeio, especialmente pela ciclovia da Avenida Paulista. Há dois sistemas de aluguel de bicicletas: o Ciclo Sampa e o Bike Sampa. Para se cadastrar, é preciso acessar o site e habilitar um cartão de crédito para cobrança.</p>  
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modalComo se locomover-->
+
+    <!-- fim modals  -->
+
+
+    <!-- inicio rodapé -->
+    <footer class="bg-dark text-center text-lg-start mt-5">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <div class="logo-roda">
+                        <img src="./img/logomundopronto.png" alt="logo Guliver Traveller" style="width: 100%;">
+                    </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <a class="link-rodape" href="./dicas-uteis.html">
+                        <h6 class="text-uppercase mb-0">Dicas úteis</h6>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <a class="link-rodape" href="./parques.html">
+                        <h6 class="text-uppercase mb-0">Parques</h6>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <a class="link-rodape" href="./quem-somos.html">
+                        <h6 class="text-uppercase mb-0">Quem somos</h6>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color: #fff;">
+            © 2021 Copyright: Guliver Traveller
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- fim do rodapé  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

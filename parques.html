@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <title>Guliver Traveller</title>
+</head>
+
+<body class="bg-light">
+    <!-- Inicio menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="logo">
+                <a class="navbar-brand" href="index.html"> <img src="./img/logomundopronto.png" alt="Logo Guliver Traveller" style="width: 100%;"> </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="dicas-uteis.html">Dicas úteis</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="parques.html">Parques</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <hr id="corDoHr" />
+                    <li class="nav-item nav-link separar">
+                        <a class="menu-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="menu-link" href="cadastro.html">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim menu -->
+
+    <!-- Inicio dos card -->
+
+    <div class="card-group margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#ibiraModal">
+                <div class="img-card">
+                    <img src="./img/logo-ibira.png" class="card-img-top" alt="Logo do Ibirapuera">
+                </div>
+                <div class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>5/5</p>
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#ceretModal">
+                <div class="img-card">
+                    <img src="./img/logo-ceret.png" class="card-img-top" alt="Logo do CERET">
+                </div>
+                <div class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>4,7/5</p>
+                </div>
+            </button>
+        </div>
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#jardimModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Jardim Botânico de São Paulo</h5>
+                </div>
+                <daaaiv class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>4,6/5</p>
+        </div>
+        </button>
+    </div>
+    </div>
+
+    <!-- Card linha 2 -->
+    <div class="card-group  margin-cards">
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#piqueriModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body piqueri">
+                    <h5 class="card-title ">Parque Piqueri</h5>
+                </div>
+                <div class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>4,6/5</p>
+                </div>
+            </button>
+        </div>
+        <div class="card margin-card-meio text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#independenciaModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Parque da Independência</h5>
+                </div>
+                <div class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>4,6/5</p>
+                </div>
+            </button>
+        </div>
+
+        <div class="card text-center">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#alfredoModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Parque Alfredo Volpi</h5>
+                </div>
+                <div class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>4,5/5</p>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <!-- card linha 3 -->
+
+    <!-- Button trigger modal -->
+    <div class="card-group margin-cards">
+        <div class="card text-center card-central">
+            <button type="button" class="botao-card" data-bs-toggle="modal" data-bs-target="#airesModal">
+                <i class="fas fa-tree icones-parques" style="color: green;"></i>
+                <div class="card-body">
+                    <h5 class="card-title">Parque Buenos Aires</h5>
+                </div>
+                <div class="card-footer text-muted d-flex flex-row-reverse">
+                    <p class="star"><i class="fas fa-star "></i></p>
+                    <p>4,5/5</p>
+                </div>
+            </button>
+        </div>
+    </div>
+    <!-- fim dos card -->
+
+    <!-- inicio modals  -->
+
+    <!-- Modal ibira-->
+    <div class="modal fade" id="ibiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Ibirapuera</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+                            <img src="./img/logo-ibira.png" class="card-img-top" alt="Logo do Ibirapuera">
+                        </div>
+
+                    </div>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/imgibira.jpg" class="d-block w-100" alt="Imagem do parque Ibirapuera">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/ibi1.png" class="d-block w-100" alt="Imagem do parque Ibirapuera">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/ibi2.png" class="d-block w-100" alt="Imagem do parque Ibirapuera">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/ibi3.png" class="d-block w-100" alt="Imagem do parque Ibirapuera">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">O Parque Ibirapuera é um parque metropolitano e ícone na cidade de São Paulo.
+                        O nome Ibirapuera significa “árvore apodrecida” em tupi-guarani e vem de uma aldeia indígena que
+                        ocupava a região do Parque quando a área era alagadiça com solo de várzea.</p>
+
+                    <p class="text-modal">Localização: Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP,
+                        Pedestres: Portões 2, 3, 4,
+                        6, 7A e 10 </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.511217218145!2d-46.6571084855424!3d-23.58599206838624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59f3c5b5d37d%3A0x5e6598c9b3e7f9a8!2sAv.%20Pedro%20%C3%81lvares%20Cabral%20-%20Moema%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1623080705927!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <p class="text-modal">Como chegar: Metrô: As estações de Metrô próximas são Santa Cruz, Vila
+                        Mariana, Ana Rosa,
+                        Paraíso, Brigadeiro, que funcionam de segunda a domingo das 6h às 0h.</p>
+                    <p class="text-modal">Ônibus também são uma opção.</p>
+                    <p class="text-modal">Veículos: Portões 3 e 7A (bolsões de estacionamento – Zona Azul)</p>
+                    <p class="text-modal">Acessibilidade Mobilidade Reduzida: Estacionamento Zona Azul, R,00 por 2h.
+                        Dias úteis das 10h às
+                        20h, sábados, domingos e feriados das 8h às 18h.</p>
+
+                    <p class="text-modal">Horário de funcionamento: Funcionamento: 5:00 - 0:00h</p>
+
+                    <p>Link de acesso ao site oficial: <a class="link-modal" href="http://parqueibirapuera.org/"
+                            target="_blank">http://parqueibirapuera.org/</a></p>
+
+                    <h5 class="card-title">Avalie</h5>
+                    <form>
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-1" name="fb" value="1" />
+                            <label for="cm_star-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-2" name="fb" value="2" />
+                            <label for="cm_star-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-3" name="fb" value="3" />
+                            <label for="cm_star-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-4" name="fb" value="4" />
+                            <label for="cm_star-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star-5" name="fb" value="5" />
+                        </div>
+
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Comentários</label>
+                        </div>
+
+                        <div class="mt-2 btn-enviar">
+                            <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal ibira-->
+
+    <!-- Modal Ceret-->
+    <div class="modal fade" id="ceretModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> CERET</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+                            <img src="./img/logo-ceret.png" class="card-img-top" alt="Logo do CERET">
+                        </div>
+
+                    </div>
+
+                    <div id="carousceretIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousceretIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousceretIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousceretIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousceretIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/ceret1.png" class="d-block w-100" alt="Imagem do CERET">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/ceret2.png" class="d-block w-100" alt="Imagem do CERET">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/ceret3.png" class="d-block w-100" alt="Imagem do CERET">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/ceret4.png" class="d-block w-100" alt="Imagem do CERET">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousceretIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousceretIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">CERET significa Centro Esportivo, Recreativo e Educativo do Trabalhador e
+                        possui uma área de 286.000 metros quadrados, o parque reúne uma série de atrações entre as
+                        quais, três campos de futebol oficiais, um campo de futebol society e uma piscina de 100 m de
+                        comprimento por 50 m de largura e está entre as maiores da América Latina. Também possui pistas
+                        para caminhadas e corridas, além da área para churrasco e piquenique, possui um playground
+                        inclusivo para crianças com deficiência, um espaço para andar de bicicleta, skate e patins e um
+                        Cachorródromo, e espaço para prática de muitos outros esportes como quadras de basquete, vôlei e
+                        etc.</p>
+
+                    <p class="text-modal">Localização: O CERET se localiza na região leste da cidade de São Paulo na Rua
+                        Canuto de Abreu,
+                        s/n – Jardim Anália Franco </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.28135898647!2d-46.55867628554305!3d-23.558336367364497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e802fcb4339%3A0x9abe00ac4133a5f4!2sClube%20Recreativo%20CERET!5e0!3m2!1spt-BR!2sbr!4v1623089077038!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <p class="text-modal">Como chegar: Ônibus ou metrô usando – linhas: 233A-10 – J. Helena – Ceret,
+                        233C-10 – Terminal
+                        A.E. Carvalho – Ceret, 372U-10 – Santa Isabel – Metrô Tatuapé, 4044-10 – Term. Vila Carrão –
+                        Ceret, 414P-10 – Vila Industrial – Penha e a 473T-10 – Metrô Vila Mariana – Pq. São Jorge.</p>
+
+                    <p class="text-modal">Horário de funcionamento: O CERET fica aberto de segunda a sexta-feira das 6h
+                        às 22h e aos
+                        sábados, domingos e feriados das 6h às 20h.
+                        Durante a pandemia fica das 6h às 16h.</p>
+
+                    <p>Link de acesso ao site oficial: <a class="link-modal" href="https://www.ceret.com.br/"
+                            target="_blank">https://www.ceret.com.br/</a></p>
+
+                    <h5 class="card-title">Avalie</h5>
+                    <form>
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star_2-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_2-1" name="fb" value="1" />
+                            <label for="cm_star_2-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_2-2" name="fb" value="2" />
+                            <label for="cm_star_2-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_2-3" name="fb" value="3" />
+                            <label for="cm_star_2-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_2-4" name="fb" value="4" />
+                            <label for="cm_star_2-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_2-5" name="fb" value="5" />
+                        </div>
+
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Comentários</label>
+                        </div>
+
+                        <div class="mt-2 btn-enviar">
+                            <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Ceret-->
+
+
+
+    <!-- Modal Jardim-->
+    <div class="modal fade" id="jardimModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Jardim Botânico de São Paulo </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+
+                        </div>
+
+                    </div>
+
+                    <div id="carousjaradimIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousjaradimIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousjaradimIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousjaradimIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousjaradimIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/jardim1.png" class="d-block w-100" alt="Imagem do Jardim Botânico de São Paulo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/jardim2.png" class="d-block w-100" alt="Imagem do Jardim Botânico de São Paulo">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/jardim3.png" class="d-block w-100" alt="Imagem do Jardim Botânico de São Paulo">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousjaradimIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousjaradimIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">Jardim Botânico | Governo do Estado de São Paulo. Fundado em 1928, o Jardim
+                        Botânico conta com 143 hectares, com várias espécies vegetais. No Museu Botânico há amostras de
+                        plantas da flora brasileira, coleção de produtos extraídos de plantas e representações de
+                        ecossistemas do Estado.</p>
+
+                    <p class="text-modal">Localização: Av. Miguel Estéfno, 3031 - Vila Água Funda, São Paulo – SP </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.025442301322!2d-46.62920458554092!3d-23.639259870357517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b2203b99f37%3A0xe02451c8d4f252bc!2sJardim%20Bot%C3%A2nico%20de%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1623088951687!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <p class="text-modal">Como chegar: As linhas abaixo têm rotas que passam perto de Jardim Botânico de
+                        São Paulo
+                        Ônibus: 050, 051, 279, 358, 446, 4491-10, 4742-10, 475R-10, 675P-10
+                        Metrô: LINHA 1 </p>
+
+                    <p class="text-modal">Horário de funcionamento: 09:00–17:00
+                    </p>
+
+                    <p>Link de acesso ao site oficial:<a class="link-modal" href=" https://jardimbotanico.sp.gov.br/ " target="_blank">
+                            https://jardimbotanico.sp.gov.br/ </a></p>
+
+                    <h5 class="card-title">Avalie</h5>
+                    <form>
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star_3-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_3-1" name="fb" value="1" />
+                            <label for="cm_star_3-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_3-2" name="fb" value="2" />
+                            <label for="cm_star_3-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_3-3" name="fb" value="3" />
+                            <label for="cm_star_3-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_3-4" name="fb" value="4" />
+                            <label for="cm_star_3-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_3-5" name="fb" value="5" />
+                        </div>
+
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Comentários</label>
+                        </div>
+
+                        <div class="mt-2 btn-enviar">
+                            <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Jardim-->
+
+    <!-- Modal Piqueri-->
+    <div class="modal fade" id="piqueriModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Parque Piqueri</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+
+                        </div>
+
+                    </div>
+
+                    <div id="carouspiqueriIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousjaradimIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouspiqueriIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouspiqueriIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouspiqueriIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/piqueri1.png" class="d-block w-100" alt="Imagem do parque do Piqueri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/piqueri2.png" class="d-block w-100" alt="Imagem do parque do Piqueri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/piqueri3.png" class="d-block w-100" alt="Imagem do parque do Piqueri">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/piqueri4.png" class="d-block w-100" alt="Imagem do parque do Piqueri">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouspiqueriIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouspiqueriIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">Possui uma área de 97 272 metros quadrados e uma variada flora que abriga de
+                        pequenos arbustos até árvores de grande porte. Também possui uma pista de terra batida para
+                        prática de cooper e caminhada com 1 200 metros de extensão, campo de futebol de areia, duas
+                        quadras poliesportivas, vários aparelhos para ginástica e musculação que estão instalados ao ar
+                        livre, um campo de bocha e um ponto de leitura.</p>
+
+                    <p class="text-modal">Localização: O Parque Piqueri se localiza na zona leste da cidade de São Paulo
+                        na Rua Tuiuti, 515
+                        - Tatuapé
+                    </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0804926919677!2d-46.57776978554384!3d-23.529607166304267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5edfb0ac04dd%3A0xc1f4144b0f9007cd!2sR.%20Tuiuti%2C%20515%20-%20Tatuap%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003081-003!5e0!3m2!1spt-BR!2sbr!4v1623089365987!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <p class="text-modal">Como chegar: Metrô – Linha 3-Vermelha – Estação Tatuapé - 271A/10 – Terminal
+                        Penha / Metrô
+                        Santana - N302/11 – Terminal A. E. Carvalho / Terminal Pq. D. Pedro II - 414P/10 – Vila
+                        Industrial / Terminal Norte Metrô Carrão - 2761-10 Ermelino Matarazzo/Metro Tatuapé - 2765/10 –
+                        Vila Cisper / Metrô Tatuapé - 2769/10 – Jd. Romano / Metro Tatuapé - 172J/10 – Jd. Brasil /
+                        Tatuapé - 172K/10 – Jd. Tremembé / Metrô Tatuapé - 172X/10 – Pq. Novo Mundo / Metrô Tatuapé </p>
+
+                    <p class="text-modal">Horário de funcionamento: O Parque Piqueri abre diariamente das 6h às 18h.
+                        Durante a pandemia na fase amarela ele abre das 6h às 18h, na fase laranja abre das 6h às 18h e
+                        na fase vermelha ele permanece permanentemente fechado.
+                    </p class="text-modal">
+
+                    <div style="width: 100%;">
+                        <p style="width: 100%;">Link de acesso ao site oficial:
+                            <a class="link-modal" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_leste/index.php?p=5761"
+                                target="_blank">
+                                https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_leste/index.php?p=5761</a>
+                        </p>
+                    </div>
+                    <h5 class="card-title">Avalie</h5>
+                    <form>
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star_4-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_4-1" name="fb" value="1" />
+                            <label for="cm_star_4-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_4-2" name="fb" value="2" />
+                            <label for="cm_star_4-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_4-3" name="fb" value="3" />
+                            <label for="cm_star_4-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_4-4" name="fb" value="4" />
+                            <label for="cm_star_4-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_4-5" name="fb" value="5" />
+                        </div>
+
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Comentários</label>
+                        </div>
+
+                        <div class="mt-2 btn-enviar">
+                            <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Piqueri-->
+
+    <!-- Modal independencia -->
+    <div class="modal fade" id="independenciaModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Parque da Independencia </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+
+                        </div>
+
+                    </div>
+
+                    <div id="carousindependenciaIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousindependenciaIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousindependenciaIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousindependenciaIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousindependenciaIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/idependecia1.png" class="d-block w-100" alt="Parque da Independencia">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/idependecia2.png" class="d-block w-100" alt="Parque da Independencia">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/idependecia3.png" class="d-block w-100" alt="Parque da Independencia">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/idependecia4.png" class="d-block w-100" alt="Parque da Independencia">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carousindependenciaIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carousindependenciaIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">Possui uma área de 161.300 metros quadrados e abriga o Museu do Ipiranga, o
+                        Monumento à Independência e a Casa do Grito, além de um denso bosque e um grande trabalho de
+                        paisagismo no caminho entre o Monumento e o Museu. Também há os jardins franceses que foram
+                        recentemente criados.
+                        .</p>
+
+                    <p class="text-modal">Localização: O Parque da Independência se localiza na região sul da cidade de
+                        São Paulo na
+                        Avenida Nazareth, s/n – Ipiranga
+                    </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.562318672819!2d-46.612015985542435!3d-23.584157968318486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b944452677b%3A0xd8cac2fbf200334a!2sParque%20Independ%C3%AAncia!5e0!3m2!1spt-BR!2sbr!4v1623090153811!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <p class="text-modal">Como chegar: Metrô – Linha 2-Verde – Estação Alto do Ipiranga
+                        Ônibus elétrico – 4113-10 – Praça da República / Gentil de Moura.</p>
+
+                    <p class="text-modal">Horário de funcionamento: O Parque da Independência abre diariamente das 5h às
+                        20h.
+                        Durante a pandemia na fase amarela ele abre das 6h às 20h, na fase laranja abre das 6h às 18h e
+                        na fase vermelha ele permanece permanentemente fechado..
+                    </p>
+
+                    <p>Link de acesso ao site oficial:
+                        <a class="link-modal" href="https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_sul/index.php?p=5747 "
+                            target="_blank">
+                            https://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_sul/index.php?p=5747
+                        </a>
+                    </p>
+
+                    <h5 class="card-title">Avalie</h5>
+                    <form>
+                        <div class="estrelas">
+                            <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                            <label for="cm_star_5-1"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_5-1" name="fb" value="1" />
+                            <label for="cm_star_5-2"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_5-2" name="fb" value="2" />
+                            <label for="cm_star_5-3"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_5-3" name="fb" value="3" />
+                            <label for="cm_star_5-4"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_5-4" name="fb" value="4" />
+                            <label for="cm_star_5-5"><i class="fa"></i></label>
+                            <input type="radio" id="cm_star_5-5" name="fb" value="5" />
+                        </div>
+
+                        <div class="form-floating mt-2">
+                            <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 200px"></textarea>
+                            <label for="floatingTextarea2">Comentários</label>
+                        </div>
+
+                        <div class="mt-2 btn-enviar">
+                            <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                        Fechar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Independencia-->
+
+
+    <!-- Modal alfredo -->
+    <div class="modal fade" id="alfredoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Parque Alfredo Volpi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+
+                        </div>
+
+                    </div>
+
+                    <div id="carousalfredoIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousalfredoIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousalfredoIdicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousalfredoIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousalfredoIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/alfredo1.png" class="d-block w-100" alt="Imagens do parque Alfredo Volpi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/alfredo2.png" class="d-block w-100" alt="Imagens do parque Alfredo Volpi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/alfredo3.png" class="d-block w-100" alt="Imagens do parque Alfredo Volpi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/alfredo4.png" class="d-block w-100" alt="Imagens do parque Alfredo Volpi">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousalfredoIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousalfredoIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">O Parque Alfredo Volpi é um dos mais deliciosos refúgios em meio ao caos de
+                        São Paulo. Com uma área de 142 mil m², este espaço é repleto de mesas para piqueniques, trilhas
+                        de caminhada, parquinhos e pistas de cooper, tudo em meio à mata atlântica. A vegetação fechada
+                        é um convite a esquecer a confusão da cidade. Com poucos metros de caminhada, você se sentirá
+                        totalmente integrado à natureza. O parque conta ainda com lagos e nascentes, o que aumenta ainda
+                        mais o clima de tranquilidade.
+                        .</p>
+
+                    <p class="text-modal">Localização: R. Eng. Oscar Americano, 480, São Paulo - SP
+                    </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.455327591067!2d-46.70447338554235!3d-23.587997868460466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57186705553f%3A0x5ec743cded62ce64!2sParque%20Alfredo%20Volpi!5e0!3m2!1spt-BR!2sbr!4v1623090415435!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                        <p class="text-modal">Como chegar: Estação Cidade Jardim - CPTM - Linha 9.</p>
+
+                        <p class="text-modal">Horário de funcionamento: Aberto diariamente das 6h às 18h
+                            Fase Amarela: 6h às 18h
+                            Fase Laranja: 6h às 18h
+                            Fase Vermelha: Permanece fechado
+                        </p>
+
+                        <div style=" width:100%;">
+                            <p style=" width:100%;">Link de acesso ao site oficial:
+                                <a class="link-modal" href="https://www.saopaulo.sp.gov.br/conhecasp/parques-e-reservas-naturais/parque-alfredo-volpi/ "
+                                    target="_blank">
+                                    https://www.saopaulo.sp.gov.br/conhecasp/parques-e-reservas-naturais/parque-alfredo-volpi/
+                                </a>
+                            </p>
+                        </div>
+
+                        <h5 class="card-title">Avalie</h5>
+                        <form>
+                            <div class="estrelas">
+                                <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                                <label for="cm_star_6-1"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_6-1" name="fb" value="1" />
+                                <label for="cm_star_6-2"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_6-2" name="fb" value="2" />
+                                <label for="cm_star_6-3"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_6-3" name="fb" value="3" />
+                                <label for="cm_star_6-4"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_6-4" name="fb" value="4" />
+                                <label for="cm_star_6-5"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_6-5" name="fb" value="5" />
+                            </div>
+
+                            <div class="form-floating mt-2">
+                                <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                    id="floatingTextarea2" style="height: 200px"></textarea>
+                                <label for="floatingTextarea2">Comentários</label>
+                            </div>
+
+                            <div class="mt-2 btn-enviar">
+                                <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                            Fechar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Alfredo-->
+
+    <!-- Modal Buenos -->
+    <div class="modal fade" id="airesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Parque Alfredo Volpi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div class="img-card">
+
+                        </div>
+
+                    </div>
+
+                    <div id="carousairesIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousairesIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousairesIdicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carousairesIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carousairesIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/buenos1.png" class="d-block w-100" alt="Imagem do parque Alfredo Volpi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/buenos2.png" class="d-block w-100" alt="Imagem do parque Alfredo Volpi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/buenos3.png" class="d-block w-100" alt="Imagem do parque Alfredo Volpi">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/buenos4.png" class="d-block w-100" alt="Imagem do parque Alfredo Volpi">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousairesIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousairesIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <p class="text-modal">Um parque em formato de galeria ou uma galeria em formato de parque? Difícil
+                        definir o que é o Parque Buenos Aires. O espaço verde se divide entre esculturas e pistas de
+                        cooper. Enquanto alguns aproveitam o dia para a prática de exercícios, outros circulam entre as
+                        várias esculturas ao longo do caminho. A verdade é que o Buenos Aires atrai e agrada os dois
+                        públicos.
+                        .</p>
+
+                    <p class="text-modal">Localização: Av. Angélica, 1500, Higienópolis, São Paulo - SP - CEP: 01228-100
+                    </p>
+                    <div class="div-mapa">
+                        <iframe class="mapa"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6366949815956!2d-46.66091168554345!3d-23.545565966893065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce583a68a83b5d%3A0x3f58960662014c8d!2sParque%20Buenos%20Aires!5e0!3m2!1spt-BR!2sbr!4v1623093495236!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                        <p class="text-modal">Como chegar: Metrô Paulista, Linha 4 Amarela.</p>
+
+                        <p class="text-modal">Horário de funcionamento: Aberto diariamente das 6h às 19h
+                            Fase Amarela: 6h às 19h
+                            Fase Laranja: 6h às 18h
+                            Fase Vermelha: Permanece fechado
+                        </p>
+
+                        <div style=" width:100%;">
+                            <p style=" width:100%;">Link de acesso ao site oficial:
+                                <a class="link-modal" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_centrooeste/index.php?p=5732"
+                                    target="_blank">
+                                    http://www.prefeitura.sp.gov.br/cidade/secretarias/meio_ambiente/parques/regiao_centrooeste/index.php?p=5732
+                                </a>
+                            </p>
+                        </div>
+
+                        <h5 class="card-title">Avalie</h5>
+                        <form>
+                            <div class="estrelas">
+                                <input type="radio" id="cm_star-empty" name="fb" value="" checked />
+                                <label for="cm_star_7-1"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_7-1" name="fb" value="1" />
+                                <label for="cm_star_7-2"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_7-2" name="fb" value="2" />
+                                <label for="cm_star_7-3"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_7-3" name="fb" value="3" />
+                                <label for="cm_star_7-4"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_7-4" name="fb" value="4" />
+                                <label for="cm_star_7-5"><i class="fa"></i></label>
+                                <input type="radio" id="cm_star_7-5" name="fb" value="5" />
+                            </div>
+
+                            <div class="form-floating mt-2">
+                                <textarea class="form-control text-area" placeholder="Leave a comment here"
+                                    id="floatingTextarea2" style="height: 200px"></textarea>
+                                <label for="floatingTextarea2">Comentários</label>
+                            </div>
+
+                            <div class="mt-2 btn-enviar">
+                                <button type="submit" class="btn btn-cor" data-bs-dismiss="modal">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-cor" data-bs-dismiss="modal">
+                            Fechar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim modal Buenos-->
+
+
+    <!-- fim modals  -->
+
+     <!-- inicio rodapé -->
+     <footer class="bg-dark text-center text-lg-start mt-5">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <div class="logo-roda">
+                        <img src="./img/logomundopronto.png" alt="logo Guliver Traveller" style="width: 100%;">
+                    </div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <a class="link-rodape" href="./dicas-uteis.html">
+                        <h6 class="text-uppercase mb-0">Dicas úteis</h6>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <a class="link-rodape" href="./parques.html">
+                        <h6 class="text-uppercase mb-0">Parques</h6>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-12 mb-4 mb-md-4">
+                    <a class="link-rodape" href="./quem-somos.html">
+                        <h6 class="text-uppercase mb-0">Quem somos</h6>
+                    </a>
+                </div>
+                <!--Grid column-->
+
+
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color: #fff;">
+            © 2021 Copyright: Guliver Traveller
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- fim do rodapé  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
