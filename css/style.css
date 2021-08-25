@@ -1,0 +1,670 @@
+/* media pc */
+@media screen and (min-width: 1201px) {
+
+    .card-central {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .home-dicasuteis {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .home-logo-parque {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card-parque-tudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .car-parque {
+        text-align: justify;
+    }
+
+    .car-dicas {
+        text-align: justify;
+    }
+
+    .lo-parque {
+        margin-left: 14%;
+        margin-bottom: 2%;
+    }
+
+
+    .card-quemsomos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
+
+    .card-quem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2%;
+    }
+
+
+
+    .car-somosquem {
+        text-align: justify;
+        margin-right: 13%;
+    }
+
+    .login-card {
+        background-color: #212529;
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 50%;
+        border: 2px solid #2382ff;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .email-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 90%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+
+
+    .margin-card-meio {
+        margin-right: 5%;
+    }
+
+    .rodape-pg-login{
+        margin-top: 8.5%;
+    }
+
+    .rodape-pg-cadastro{
+        margin-top: 7%;
+    }
+
+
+    
+
+
+}
+
+/* media de tablet  */
+@media screen and (max-width: 1200px) and (min-width: 710px) {
+
+    .home-logo-parque {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card-parque-tudo {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .car-parque {
+        text-align: justify;
+    }
+
+    .card-central {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .lo-parque {
+        margin-left: 14%;
+        margin-bottom: 2%;
+    }
+
+    .login-card {
+        background-color: #212529;
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 60%;
+        border: 2px solid #2382ff;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+
+    .margin-card-meio {
+        margin-right: 5%;
+    }
+
+    .rodape-pg-cadastro{
+        margin-top: 56.5%;
+    }
+
+    .rodape-pg-login{
+        margin-top: 72%;
+    }
+
+
+}
+
+/* media de celular */
+@media screen and (max-width: 709px) {
+
+    .lo-parque {
+        display: flex;
+        justify-content: center;
+    }
+
+    .car-parque {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .car-dicas {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
+    }
+
+    .car-somosquem {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
+    }
+
+    .login-card {
+        background-color: #212529;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+        border: 2px solid #2382ff;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .email-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+        flex-direction: column;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 96%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .rodape-pg-cadastro{
+        margin-top: 40%;
+    }
+
+    .rodape-pg-login{
+        margin-top: 70%;
+    }
+
+
+
+}
+
+
+
+/* media queries para diferenciar ipad e ipad pro   */
+@media screen and (min-width: 992px) {
+    .separar {
+        border-left: 1px solid #c3c4c6;
+    }
+
+    .home-dicasuteis {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card-quemsomos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2%;
+    }
+
+    .card-quem {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 2%;
+    }
+
+    .car-somosquem {
+        text-align: justify;
+        margin-right: 13%;
+    }
+
+    .email-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+        flex-direction: row;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 90%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 90%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+
+    
+
+    
+
+
+}
+
+@media screen and (max-width: 991px) {
+    .separar {
+        border-left: none;
+    }
+
+    .car-dicas {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
+    }
+
+    .car-somosquem {
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        margin-top: 2%;
+    }
+
+    .email-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .senha-login {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .genero-cadastrar {
+        display: flex;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 2%;
+        flex-direction: column;
+    }
+
+    .data-cadastrar {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 2%;
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+
+    #idTxtEmail {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    #idTxtPass {
+        border: 2px solid #2382ff;
+        margin-left: 1%;
+        width: 96%;
+        border-radius: 5px;
+    }
+
+    .cadastrar-genero {
+        border: 2px solid #2382ff;
+        width: 96%;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+
+   
+
+    .piqueri{
+        margin-top: 12%;
+    }
+
+
+}
+
+
+#corDoHr {
+    color: #c3c4c6;
+}
+
+.menu-link {
+    text-decoration: none;
+    color:
+        #ffffff;
+}
+
+.menu-link:hover {
+    color: #2382ff;
+}
+
+
+.margin-cards {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.icones {
+    margin-top: 2%;
+    font-size: 100px;
+}
+
+.botao-card {
+    padding: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.home-banner {
+    height: 100%;
+
+}
+
+.banner-home {
+    width: 100%;
+}
+
+.desctit {
+    margin-top: 2%;
+}
+
+.descricaosp {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    text-align: justify;
+}
+
+.di-saimais {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+.btn-saimais {
+    border: 2px solid #2382ff;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #212529;
+    font-size: 20px;
+}
+
+.btn-saimais:hover {
+    border: 2px solid #212529;
+    color: #2382ff;
+}
+
+.btn-cor {
+    background-color: #2382ff;
+    color: #fff;
+}
+
+.btn-cor:hover {
+    background-color: #cacaca;
+    color: #2382ff;
+}
+
+.text-modal {
+    margin-top: 5%;
+    text-align: justify;
+}
+
+
+
+.icones-parques {
+    margin-top: 5%;
+    font-size: 100px;
+}
+
+
+.tit-login {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.botao-login {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-botao {
+    background-color: #fff;
+    border: 2px solid #2382ff;
+}
+
+#idDate {
+    border: 2px solid #2382ff;
+    margin-left: 1%;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.star {
+    color: rgb(253, 237, 93);
+    margin-left: 2%;
+}
+
+.estrelas input[type=radio] {
+    display: none;
+}
+
+.estrelas label i.fa:before {
+    font-size: 25px;
+    content: '\f005';
+    color: #FC0;
+}
+
+.estrelas input[type=radio]:checked~label i.fa:before {
+    color: #CCC;
+}
+
+.text-area {
+    resize: none;
+}
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+}
+.div-mapa{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.mapa{
+    width: 100%;
+
+}
+
+.img-card {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.link-modal{
+    /* white-space: normal; */
+    word-wrap: break-word;
+    width: 300px;
+}
+
+.link-rodape{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-rodape:hover{
+    color: #2382ff;
+}
+
+.logo{
+ 
+    width: 10%;
+}
+
+.logo-roda{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
